@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 102px;
+    width: 262px;
+    margin-left: 38px;
+    margin-top: 108px;
+}
+.col{
+  
+  background-image: url(https://pics.ebaystatic.com/aw/pics/mastercard/blue_card.png);
+  width: 435px;
+  height: 275px;
+  margin-left: 184px;
+  margin-top: 46px;
+}
+.col span{
+  margin-top: 162px;
+    margin-left: 54px;
+    position: absolute;
+    font-size: 24px;
+}
+.col h6{
+  margin-top: 189px;
+    margin-left: 205px;
+    font-size: 15px;
+}
+.col p{
+  margin-left: 21px;
+    margin-top: -15px;
+    font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.bloc{
+  display: flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form input{
+  border-radius: 6px;
+    margin: 10px 10px;
+    height: 19px;
+    width: 231px;
 }
